@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(4, 26, 43);
+    gap: 10px;
+}
+
+.main-container {
+    border: 3px solid rgb(26, 87, 125);
+    border-radius: 7px;
+    /* 
+    width: 50%;
+    height: 0;
+    padding-bottom: 50%; */
+    height: 70vh;
+    aspect-ratio: 1 / 1; 
+    background-color:cornsilk;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    user-select: none;
+    cursor: crosshair;
+}
+
+.square {
+    aspect-ratio: 1/1;
+}
+
+.touched {
+    background-color: black;
+}
+
+button {
+    padding: 4px 10px;
+    color: ivory;
+    background-color: darkcyan;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+button:active {
+    background-color: indianred;
+}
