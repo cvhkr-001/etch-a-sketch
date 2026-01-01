@@ -68,6 +68,7 @@ document.querySelector('#create-new-grid').addEventListener('click', e => {
     while(!Number.isInteger(input) || input < 1 || input > 100);
     grid.innerHTML = "";
     addSquares(input);
+    randomEnabled = false;
 });
 
 document.querySelector("#random-color").addEventListener('click', e => {
